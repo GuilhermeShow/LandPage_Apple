@@ -1,0 +1,107 @@
+.corpo {
+        padding: 5px 8em;
+}
+
+.iphone {
+        height: 85vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.descricao img {
+        width: 200px;
+}
+
+.subtitulo {
+        width: 70%;
+}
+
+.subtitulo h1 {
+        text-align: justify;
+        opacity: 0.9;
+}
+
+.botao button {
+        background-color: rgba(0, 162, 255, 0.967);
+        border: none;
+        padding: 8px 14px;
+        color: #ffffff;
+        font-size: 18px;
+        border-radius: 10px;
+        margin: 36px 4px;
+        cursor: pointer;
+        transition: .1s;
+}
+
+.botao button:hover {
+        opacity: 0.5;
+}
+
+
+.selecionar span{
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+        padding: 10px;
+        border-radius: 50%;
+        opacity: 0.9;
+        box-shadow: 2px 6px 4px #000;
+        margin: 10px 2px;
+        transition: .1.5s;
+}
+
+.selecionar span:hover {
+        opacity: 0.5;
+        font-size: 14px;
+}
+
+#black{
+        color:#000;
+        background-color: black;
+}
+
+#blue {
+        background-color: rgb(90, 90, 236);
+        color: rgb(90, 90, 236);
+}
+
+#green {
+        background-color: rgb(96, 235, 96);
+        color: rgb(96, 235, 96); 
+}
+
+#red {
+        background-color: red;
+        color: red; 
+}
+
+#pink {
+        background-color: pink;
+        color: pink; 
+}
+
+#white {
+        background-color: #fff;
+        color: #fff; 
+}
+
+
+
+
+
+
+.celular img {
+        width: 300px;
+        transform: rotate(10deg);
+}
+
+.descricao_iphone {
+        width: 86%;
+        margin: 28px 0;
+}
+
+.descricao_iphone p {
+        font-size: 18px;
+}
+
